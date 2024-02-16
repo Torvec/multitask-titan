@@ -4,6 +4,7 @@
   "description": "A collaborative task completion app for teams and organizations to increase productivity and crush their goals!",
   "main": "server.mjs",
   "dependencies": {
+    "@prisma/client": "^5.9.1",
     "fastify": "^4.26.1"
   },
   "scripts": {
@@ -19,5 +20,8 @@
     "url": "https://github.com/Torvec/multitask-titan/issues"
   },
   "homepage": "https://github.com/Torvec/multitask-titan#readme",
- "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "prisma": "^5.9.1"
+  }
 }
