@@ -1,0 +1,23 @@
+{
+  "name": "multitask-titan",
+  "version": "1.0.0",
+  "description": "A collaborative task completion app for teams and organizations to increase productivity and crush their goals!",
+  "main": "server.mjs",
+  "dependencies": {
+    "fastify": "^4.26.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Torvec/multitask-titan.git"
+  },
+  "author": "Edward Vonschondorf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Torvec/multitask-titan/issues"
+  },
+  "homepage": "https://github.com/Torvec/multitask-titan#readme",
+ "type": "module"
+}
