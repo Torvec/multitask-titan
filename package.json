@@ -4,9 +4,18 @@
   "description": "A collaborative task completion app for teams and organizations to increase productivity and crush their goals!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky && husky install"
   },
   "keywords": [],
   "author": "Edward Vonschondorf",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "lint-staged": "15.2.2",
+    "prettier": "3.2.5"
+  },
+  "lint-staged": {
+    "*.{js,mjs,jsx,ts,tsx,html,css,md}": "prettier --write"
+  }
 }
