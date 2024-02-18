@@ -1,5 +1,4 @@
 import "./ui/globals.css";
-import { Nav } from "./ui/Nav";
 import { Header } from "./ui/Header";
 import { Footer } from "./ui/Footer";
 
@@ -8,11 +7,9 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className="bg-neutral-800 text-white">
-        <Header>
-          <Nav />
-        </Header>
-        <main className="container mx-auto flex flex-col">{children}</main>
+      <body className="flex h-screen flex-col bg-gradient-to-br from-neutral-900 to-neutral-800 text-white">
+        <Header />
+        <main className="container mx-auto flex flex-grow ">{children}</main>
         <Footer />
       </body>
     </html>
