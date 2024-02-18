@@ -3,7 +3,7 @@
 export const Footer = () => {
   const getFullYear = new Date().getFullYear();
   return (
-    <footer className="bg-neutral-600 flex justify-center">
+    <footer className="flex justify-center bg-neutral-600">
       <p>&copy; {getFullYear} Copyright. All Rights Reserved.</p>
     </footer>
   );

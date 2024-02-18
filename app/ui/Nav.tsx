@@ -15,7 +15,7 @@ export const Nav = () => {
 
   return (
     <nav>
-      <ul className="flex container justify-between mx-auto">
+      <ul className="container mx-auto flex justify-between">
         {navigation.map((navitem) => (
           <li key={navitem.href}>
             <Link href={navitem.href}>{navitem.label}</Link>

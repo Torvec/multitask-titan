@@ -12,7 +12,7 @@ export default function RootLayout({
         <Header>
           <Nav />
         </Header>
-        <main className="flex flex-col container mx-auto">{children}</main>
+        <main className="container mx-auto flex flex-col">{children}</main>
         <Footer />
       </body>
     </html>
